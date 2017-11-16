@@ -29,7 +29,7 @@ public class SecretMessageBox {
 		String password2 = JOptionPane.showInputDialog(null, "if you would like to know a secret, Guess the password");
 		// 4. If their guess matches the password, show them the secret message
 		if (password2.equals(password)) {
-			JOptionPane.showMessageDialog(null, " theres a secret " + Secret);	
+			JOptionPane.showMessageDialog(null, " theres a secret, " + Secret);	
 		}
 		else {
 		JOptionPane.showMessageDialog(null, "INTRUDER!!");	
